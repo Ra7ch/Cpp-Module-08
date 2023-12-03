@@ -6,7 +6,7 @@
 /*   By: raitmous <raitmous@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/02 09:21:28 by raitmous          #+#    #+#             */
-/*   Updated: 2023/12/02 19:29:21 by raitmous         ###   ########.fr       */
+/*   Updated: 2023/12/03 09:26:09 by raitmous         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,5 +87,34 @@ int main()
 // 	++it;
 // 	}
 // 	std::stack<int, std::vector<int> > s(mstack);
+// 	return 0;
+// }
+
+//int main()
+// {
+// 	MutantStack<int, std::vector<int> > mstack;
+// 	std::stack<int, std::vector<int> > s(mstack);
+// 	mstack.push(5);
+// 	mstack.push(17);
+// 	std::cout << mstack.top() << std::endl;
+// 	mstack.pop();
+// 	std::cout << mstack.size() << std::endl;
+// 	mstack.push(3);
+// 	mstack.push(5);
+// 	mstack.push(737);
+// 	//[...]
+// 	mstack.push(0);
+// 	std::stack<int,std::vector<int> >::container_type::iterator it;
+// 	std::stack<int,std::vector<int> >::container_type::iterator ite;
+// 	it = mstack.begin();
+// 	ite = mstack.end();
+// 	++it;
+// 	--it;
+// 	while (it != ite)
+// 	{
+// 	std::cout << *it << std::endl;
+// 	++it;
+// 	}
+// 	//std::stack<int, std::vector<int> > s(mstack);
 // 	return 0;
 // }
